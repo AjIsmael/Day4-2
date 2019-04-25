@@ -2,13 +2,19 @@ body{
   margin: 0;
 }
 
+p {
+  font-size:1.13em;
+}
+
 .image-grid {
   display:grid;
+  grid-template: 180px 180px / 330px 330px;
+  grid-gap:2%;
 }
 .image-grid div{
   background-image: url("http://lorempixel.com/400/200/city/");
-  width: 400px;
-  height: 200px;
+  /* grid-gap: 2%; */
+  background-size: cover;
 }
 
 #navbar {
@@ -65,10 +71,38 @@ body{
   padding: 1% 2% 3% 2% ;
 }
 
-.serch-grid div:nth-child(2) {
+.search-grid div:nth-child(2) {
   padding: 1% 5% 3% 5%;
 }
 
-.search-form {
+.info-header {
+  text-align: center;
+}
 
+.info-section {
+  margin-top: 3%;
+}
+
+.info-grid {
+  display: grid;
+  justify-content: center;
+  grid-template: 300px / 35% 40%;
+  grid-gap: 5%;
+  text-align: center;
+}
+
+.info-grid p {
+  line-height: 1.6;
+}
+
+.info-grid div button{
+  margin-top: 25%;
+  background: rgba(0, 0, 0, 0);
+  border-color: #fff;
+  border: 2px solid #3fff;
+  color: #fff;
+  padding: 4% 8%;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
