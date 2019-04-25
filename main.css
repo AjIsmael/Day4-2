@@ -36,6 +36,39 @@ body{
 .main-header {
   background-image: url("http://wpnature.com/wp-content/uploads/2016/08/lakes-canadian-nature-blue-lake-sky-peak-nice-trees-beautiful-lovely-moraine-pretty-majestic-canada-mountain-view-rocks-frozen-desktop-background-1600x1080.jpg");
   background-size: cover;
-  background-position: 50% 25%;
-  height: 39vh;
+  background-position: 50% 30%;
+  height: 55vh;
+}
+
+.main-header h1, .main-header h2, .search-grid p {
+    color:whitesmoke;
+}
+
+.title-head {
+  margin-top: 0;
+  font-size: 2.5em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.search-grid {
+  text-align: center;
+  padding-top: 5%;
+  justify-content: center;
+  display: grid;
+  grid-template: 300px / 50% 20%;
+  grid-gap: 1%;
+}
+
+.search-grid div{
+  background: rgba(30, 53, 62, 0.72);
+  padding: 1% 2% 3% 2% ;
+}
+
+.serch-grid div:nth-child(2) {
+  padding: 1% 5% 3% 5%;
+}
+
+.search-form {
+
 }
