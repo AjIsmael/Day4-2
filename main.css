@@ -62,7 +62,7 @@ p {
   padding-top: 5%;
   justify-content: center;
   display: grid;
-  grid-template: 300px / 34% 55%;
+  grid-template: 300px / 50% 20%;
   grid-gap: 1%;
 }
 .search-form {
@@ -86,8 +86,13 @@ p {
   width:15%;
 }
 
+.search-form 
 .search-form div{
-  display: block;
+  display: inline;
+}
+
+.search-form div:nth-child(1){
+  width: 30%;
 }
 
 
@@ -111,7 +116,7 @@ p {
 .info-grid {
   display: grid;
   justify-content: center;
-  grid-template: 300px / 35% 40%;
+  grid-template: 300px / 29% 48%;
   grid-gap: 5%;
   text-align: center;
   width: 100%;
