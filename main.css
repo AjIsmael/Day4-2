@@ -65,6 +65,27 @@ p {
   grid-template: 300px / 50% 20%;
   grid-gap: 1%;
 }
+.search-form {
+  text-align: left;
+}
+
+.search-form label{
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.search-form input{
+  padding: 5px 10px 5px 5px;
+}
+
+.search-form input[type='text']{
+  width:80%;
+}
+
+.search-form input[type='submit']{
+  width:15%;
+}
+
 
 .search-grid div{
   background: rgba(30, 53, 62, 0.72);
@@ -89,6 +110,7 @@ p {
   grid-template: 300px / 35% 40%;
   grid-gap: 5%;
   text-align: center;
+  width: 100%;
 }
 
 .info-grid p {
